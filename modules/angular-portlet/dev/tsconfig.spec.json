@@ -1,0 +1,25 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/spec",
+    "baseUrl": "./",
+    "module": "commonjs",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "files": [
+    "../src/main/resources/META-INF/resources/lib/test.ts",
+    "../dev/polyfills.ts",
+    "polyfills.ts"
+  ],
+  "include": [
+    "../types/**/*.ts",
+    "../src/main/resources/META-INF/resources/lib/**/*.spec.ts",
+    "../src/main/resources/META-INF/resources/lib/**/*.d.ts"
+  ],
+  "exclude": [
+    "../src/main/resources/META-INF/resources/lib/index.ts"
+  ]
+}
