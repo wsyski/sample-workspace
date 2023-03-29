@@ -61,7 +61,10 @@
 	"main": "lib/angular-loader.js",
 	"name": "angular-portlet",
 	"scripts": {
-		"build": "tsc && liferay-npm-bundler"
+		"test": "true",
+		"build": "tsc && liferay-npm-bundler",
+		"clean": "liferay clean",
+		"deploy": "liferay deploy"
 	},
 	"version": "1.0.0"
 }
