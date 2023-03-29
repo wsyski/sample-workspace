@@ -1,2 +1,5 @@
 {
+    "dump-report": true,
+    "max-parallel-files": 128,
+    "verbose": true
 }
