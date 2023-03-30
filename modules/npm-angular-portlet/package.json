@@ -1,4 +1,9 @@
 {
+	"name": "npm-angular-portlet",
+	"license": "UNLICENSED",
+	"main": "lib/angular-loader.js",
+	"version": "1.0.0",
+	"descriprion": "NPM angular portlet",
 	"dependencies": {
 		"@angular/animations": "~7.2.16",
 		"@angular/common": "~7.2.16",
@@ -43,22 +48,19 @@
 		"karma-jasmine": "~5.1.0",
 		"karma-jasmine-html-reporter": "~2.0.0",
 		"liferay-npm-bundler": "~2.31.2",
-		"sass":"~1.60.0",
-		"sass-loader":"~7.1.0",
 		"protractor": "~5.4.0",
 		"rimraf": "~4.4.1",
+		"sass":"~1.60.0",
+		"sass-loader":"~7.1.0",
 		"ts-node": "~7.0.0",
 		"tslint": "~5.20.1",
 		"typescript": "~3.2.4",
 		"webpack": "~4.44.2"
 	},
-	"main": "lib/angular-loader.js",
-	"name": "npm-angular-portlet",
 	"scripts": {
 		"test": "true",
 		"build": "tsc && liferay-npm-bundler",
 		"clean": "rimraf build",
 		"deploy": "true"
-	},
-	"version": "1.0.0"
+	}
 }
