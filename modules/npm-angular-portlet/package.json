@@ -1,8 +1,4 @@
 {
-	"name": "angular-portlet",
-	"version": "1.0.0",
-	"license": "UNLICENSED",
-	"main": "lib/index.js",
 	"dependencies": {
 		"@angular/animations": "~7.2.16",
 		"@angular/common": "~7.2.16",
@@ -56,10 +52,13 @@
 		"typescript": "~3.2.4",
 		"webpack": "~4.44.2"
 	},
+	"main": "lib/angular-loader.js",
+	"name": "npm-angular-portlet",
 	"scripts": {
-		"test": "ng test --watch=false --browsers ChromeHeadless",
+		"test": "true",
 		"build": "tsc && liferay-npm-bundler",
 		"clean": "rimraf build",
 		"deploy": "true"
-	}
+	},
+	"version": "1.0.0"
 }
