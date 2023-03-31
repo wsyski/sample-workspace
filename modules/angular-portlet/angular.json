@@ -36,13 +36,13 @@
               "dev/resources"
             ],
             "styles": [
-              "./../../node_modules/bootstrap/dist/css/bootstrap.css",
-              "./../../node_modules/bootstrap/dist/css/bootstrap-theme.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./node_modules/bootstrap/dist/css/bootstrap-theme.css",
               "dev/scss/main.scss"
             ],
             "scripts": [
-              "./../../node_modules/jquery/dist/jquery.js",
-              "./../../node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
               "dev/js/liferay.js",
               "dev/js/liferay-defaults.js"
             ]
@@ -94,14 +94,14 @@
             "polyfills": "dev/polyfills.ts",
             "tsConfig": "dev/tsconfig.spec.json",
             "scripts": [
-              "./../../node_modules/jquery/dist/jquery.js",
-              "./../../node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
               "dev/js/liferay.js",
               "dev/js/liferay-defaults.js"
             ],
             "styles": [
-              "./../../node_modules/bootstrap/dist/css/bootstrap.css",
-              "./../../node_modules/bootstrap/dist/css/bootstrap-theme.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./node_modules/bootstrap/dist/css/bootstrap-theme.css",
               "dev/scss/main.scss"
             ],
             "assets": [

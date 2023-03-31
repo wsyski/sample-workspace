@@ -37,3 +37,15 @@ subprojects { subproject ->
 
 }
 
+task yarnInstallCmd(type: Exec) {
+    println "Executing yarn install..."
+    executable "yarn"
+    args "install"
+    println "Done"
+}
+
+yarnInstall {
+    dependsOn([yarnInstallCmd])
+}
+
+
