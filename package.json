@@ -1,0 +1,25 @@
+{
+    "engines": {
+        "node": "=16",
+        "yarn": "1.x"
+    },
+    "private": true,
+    "resolutions": {
+        "node-sass": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.0.2.tgz"
+    },
+    "workspaces": {
+        "packages": [
+            "modules/calendar/calendar-event-list-web",
+            "modules/npm-angular-portlet",
+            "modules/angular-portlet"
+        ],
+        "nohoist": [
+            "**/angular-portlet",
+            "**/angular-portlet/**",
+            "**/npm-angular-portlet",
+            "**/npm-angular-portlet/**",
+            "**/calendar-event-list",
+            "**/calendar-event-list/**"
+        ]
+    }
+}

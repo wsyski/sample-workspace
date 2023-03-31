@@ -22,6 +22,6 @@ dependencies {
 }
 
 classes {
-    dependsOn([npmInstall, packageRunBuild, packageRunCss, packageRunLint, packageRunTest])
+    dependsOn([packageRunBuild, packageRunCss, packageRunLint, packageRunTest])
 }
 

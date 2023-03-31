@@ -2,7 +2,6 @@
 scriptDir=$(cd `dirname $0` && pwd)
 echo "scriptDir: ${scriptDir}"
 rm -f ${scriptDir}/../.yarnrc
-rm -f ${scriptDir}/../package.json
 rm -rf ${scriptDir}/../node_modules_cache
 find ${scriptDir}/.. -name build -exec rm -rf {} \;
 find ${scriptDir}/.. -name dist -exec rm -rf {} \;
