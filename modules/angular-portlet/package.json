@@ -4,6 +4,10 @@
 	"license": "UNLICENSED",
 	"main": "lib/index.js",
 	"descriprion": "Angular portlet",
+	"engines": {
+		"node": "=16",
+		"yarn": "1.x"
+	},
 	"dependencies": {
 		"@angular/animations": "~7.2.16",
 		"@angular/common": "~7.2.16",
@@ -56,6 +60,9 @@
 		"tslint": "~5.20.1",
 		"typescript": "~3.2.4",
 		"webpack": "~4.44.2"
+	},
+	"resolutions": {
+		"node-sass": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.0.2.tgz"
 	},
 	"scripts": {
 		"test": "ng test --watch=false --browsers ChromeHeadless",

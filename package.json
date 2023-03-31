@@ -1,9 +1,0 @@
-{
-    "private": true,
-    "workspaces": {
-        "packages": [
-            "modules/npm-angular-portlet",
-            "modules/angular-portlet"
-        ]
-    }
-}
