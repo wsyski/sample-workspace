@@ -5,6 +5,11 @@
   "main": "lib/index.js",
   "private": true,
   "description": "Calendar event list portlet",
+  "engines": {
+    "node": "=16",
+    "yarn": "1.x"
+  },
+  "no-optional": true,
   "dependencies": {
     "@angular/animations": "~7.2.16",
     "@angular/common": "~7.2.16",
@@ -58,21 +63,13 @@
     "typescript": "~3.2.4",
     "webpack": "~4.44.2"
   },
-  "workspaces": {
-    "packages": [
-    ],
-    "nohoist": [
-      "**"
-    ]
+  "resolutions": {
+    "node-sass": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.0.2.tgz"
   },
   "scripts": {
-    "workspace-install": "yarn install",
-    "clean": "rimraf build",
-    "build": "tsc && liferay-npm-bundler",
-    "css": "sass --load-path=dev/lexicon/fonts/alloy-font-awesome/sccs src/main/resources/META-INF/resources/scss/main.scss build/resources/main/META-INF/resources/css/main.css",
-    "xi18n": "ng xi18n --output-path src/main/resources/META-INF/resources/i18n --verbose --i18nFormat=xlf --app",
     "test": "ng test --watch=false --browsers ChromeHeadless",
-    "lint": "tslint ./src/**/*.ts -t verbose",
+    "build": "tsc && liferay-npm-bundler",
+    "clean": "rimraf build",
     "deploy": "true"
   }
 }
