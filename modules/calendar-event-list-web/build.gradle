@@ -1,0 +1,41 @@
+dependencies {
+    implementation project(":modules:arena:arena-api")
+    implementation project(":modules:common-services:common-services-api")
+    implementation project(":modules:calendar:calendar-api")
+    implementation group: "commons-codec", name: "commons-codec", version: "${rootProject.getProperty('commons-codec.commons-codec.version')}"
+    implementation group: "org.apache.commons", name: "commons-lang3", version: "${rootProject.getProperty('org.apache.commons.lang3.version')}"
+    implementation group: "com.google.guava", name: "guava", version: "${rootProject.getProperty('com.google.guava.guava.version')}"
+    implementation group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "${rootProject.getProperty('biz.aQute.bndlib.version')}"
+    implementation group: "javax.servlet.jsp.jstl", name: "jstl-api", version: "${rootProject.getProperty('org.glassfish.web.jstl.version')}"
+    implementation group: "org.glassfish.web", name: "jstl-impl", version: "${rootProject.getProperty('org.glassfish.web.jstl.version')}"
+    implementation group: "javax.servlet", name: "javax.servlet-api", version: "${rootProject.getProperty('javax.servlet.javax.servlet-api.version')}"
+    implementation group: "javax.portlet", name: "portlet-api", version: "${rootProject.getProperty('javax.portlet.portlet-api.version')}"
+
+    testImplementation project(":modules:arena:arena-api")
+    testImplementation project(":modules:calendar:calendar-api")
+    testImplementation group: "org.apache.commons", name: "commons-lang3", version: "${rootProject.getProperty('org.apache.commons.lang3.version')}"
+    testImplementation group: "javax.servlet", name: "javax.servlet-api", version: "${rootProject.getProperty('javax.servlet.javax.servlet-api.version')}"
+    testImplementation group: "javax.portlet", name: "portlet-api", version: "${rootProject.getProperty('javax.portlet.portlet-api.version')}"
+    testImplementation group: "org.junit.jupiter", name: "junit-jupiter-api", version: "${rootProject.getProperty('junit-jupiter-api.version')}"
+    testImplementation group: "org.hamcrest", name: "hamcrest-all", version: "${rootProject.getProperty('org.hamcrest.hamcrest-all.version')}"
+    testImplementation group: "org.mockito", name: "mockito-core", version: "${rootProject.getProperty('org.mockito.mockito-core.version')}"
+}
+
+classes {
+    dependsOn([npmInstall, packageRunBuild, packageRunCss, packageRunLint, packageRunTest])
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId 'com.axiell.arena.liferay.modules.calendar.calendar_event_list.web'
+            groupId "${mavenGroup}"
+            version "${mavenVersion}"
+            from components.java
+        }
+    }
+}
+
+packageRunBuild {
+    dependsOn([packageRunWorkspaceInstall])
+}

@@ -1,0 +1,16 @@
+Bundle-Name: Arena Liferay Modules Calendar Event List Web
+Bundle-SymbolicName: com.axiell.arena.liferay.modules.calendar.calendar_event_list.web
+Bundle-Version: 5.4.0
+Liferay-Releng-Module-Group-Description: Arena Liferay Modules Calendar Event List Web
+Liferay-Releng-Module-Group-Title: Arena Liferay Modules Calendar Event List Web
+Web-ContextPath: /calendar-event-list
+-contract: JavaPortlet
+ -jsp:\
+ 	*.jsp,\
+ 	*.jspf
+ -plugin.bundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+ -plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
+ -plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+
+-include: ../../common.bnd
+

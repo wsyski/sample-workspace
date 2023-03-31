@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "types": ["node"]
+  },
+  "files": [
+    "../dev/polyfills.ts"
+  ],
+  "exclude": [
+    "../src/main/resources/META-INF/resources/lib/test.ts",
+    "../src/main/resources/META-INF/resources/lib/index.ts",
+    "../src/main/resources/META-INF/resources/lib/**/*.spec.ts"
+  ]
+}

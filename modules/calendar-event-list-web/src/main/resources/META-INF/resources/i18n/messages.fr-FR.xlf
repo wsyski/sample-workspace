@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="ng2.template" datatype="plaintext" source-language="en" target-language="fr-FR">
+    <body>
+      <trans-unit id="79e2aa6d049bbd3ea59918c49c89ed257e918fdf">
+        <source xml:lang="en">{VAR_SELECT, select, email {via email} facebook {on Facebook} twitter {on Twitter} }</source>
+        <target xml:lang="fr-FR">{VAR_SELECT, select, email {via courriel} facebook {sur Facebook} twitter {sur Twitter} }</target>
+      </trans-unit>
+      <trans-unit id="86688203dfe227a2dc7f9f161f1126a62d45b2f2">
+        <source xml:lang="en">{VAR_SELECT, select, MANDATORY_FIELD_MISSING {Mandatory fields are missing} INVALID_EMAIL {Email is invalid} EVENT_FULLY_BOOKED {Event is fully booked} ALREADY_REGISTERED {This email is already registered} MIN_NR_OF_ATTENDEES {You can not register less than one person} MAX_NR_OF_ATTENDEES {You are trying to register too many attendees} other {Failed to register to the event} }</source>
+        <target xml:lang="fr-FR">{VAR_SELECT, sélectionner, MANDATORY_FIELD_MISSING {Vous devez remplir tous les champs} INVALID_EMAIL {L’adresse e-mail n’est pas valide} EVENT_FULLY_BOOKED {L’évènement est complet} ALREADY_REGISTERED {Cet e-mail est déjà enregistré} MIN_NR_OF_ATTENDEES {Vous ne pouvez pas enregistrer moins d’une personne} MAX_NR_OF_ATTENDEES {Vous essayez d’enregistrer trop de participants} autre {Impossible d’enregistrer l’évènement} }</target>
+      </trans-unit>
+      <trans-unit id="bca14a6cfe50178ad57b2fd21d393f8736131231">
+        <source xml:lang="en">{VAR_SELECT, select, ALL {All events} TODAY {Today} ONE_WEEK {One week ahead} ONE_MONTH {One month ahead} ONE_YEAR {One year ahead} }</source>
+        <target xml:lang="fr-FR">{VAR_SELECT, select, ALL {Tous événements} TODAY {Aujourd’hui} ONE_WEEK {Cette semaine} ONE_MONTH {Ce mois} ONE_YEAR {Cette année} }</target>
+      </trans-unit>
+      <trans-unit id="btnCancel.label">
+        <source xml:lang="en">Cancel
+                        </source>
+        <target xml:lang="fr-FR">Annuler</target>
+      </trans-unit>
+      <trans-unit id="btnRegister.label">
+        <source xml:lang="en">Register
+                        </source>
+        <target xml:lang="fr-FR">S’inscrire</target>
+      </trans-unit>
+      <trans-unit id="btnRegister.title">
+        <source xml:lang="en">Register</source>
+        <target xml:lang="fr-FR">S’inscrire</target>
+      </trans-unit>
+      <trans-unit id="btnSearch.title">
+        <source xml:lang="en">Search</source>
+        <target xml:lang="fr-FR">Rechercher</target>
+      </trans-unit>
+      <trans-unit id="btnShowMoreEvents.label">
+        <source xml:lang="en">Load more events</source>
+        <target xml:lang="fr-FR">Télécharger plus d’événements</target>
+      </trans-unit>
+      <trans-unit id="btnShowMoreEvents.title">
+        <source xml:lang="en">Load more events</source>
+        <target xml:lang="fr-FR">Télécharger plus d’événements</target>
+      </trans-unit>
+      <trans-unit id="clearSearch">
+        <source xml:lang="en">Clear</source>
+        <target xml:lang="fr-FR">Réinitialiser la recherche</target>
+      </trans-unit>
+      <trans-unit id="fldAcceptTerms.label">
+        <source xml:lang="en"> I agree with the storage and handling of data by this website in accordance to this policy: </source>
+        <target xml:lang="fr-FR">J'accepte le stockage et le traitement des données par ce site web conformément à la présente politique : </target>
+      </trans-unit>
+      <trans-unit id="fldAcceptTerms.title">
+        <source xml:lang="en"> I agree with the storage and handling of data by this website in accordance to this policy: </source>
+        <target xml:lang="fr-FR">J'accepte le stockage et le traitement des données par ce site web conformément à la présente politique : </target>
+      </trans-unit>
+      <trans-unit id="fldEmail.label">
+        <source xml:lang="en">Email</source>
+        <target xml:lang="fr-FR">Adresse courriel</target>
+      </trans-unit>
+      <trans-unit id="fldEmail.title">
+        <source xml:lang="en">Email</source>
+        <target xml:lang="fr-FR">Adresse courriel</target>
+      </trans-unit>
+      <trans-unit id="fldFirstName.label">
+        <source xml:lang="en">First Name</source>
+        <target xml:lang="fr-FR">Prénom</target>
+      </trans-unit>
+      <trans-unit id="fldFirstName.title">
+        <source xml:lang="en">First Name</source>
+        <target xml:lang="fr-FR">Prénom</target>
+      </trans-unit>
+      <trans-unit id="fldLastName.label">
+        <source xml:lang="en">Last Name</source>
+        <target xml:lang="fr-FR">Nom</target>
+      </trans-unit>
+      <trans-unit id="fldLastName.title">
+        <source xml:lang="en">Last Name</source>
+        <target xml:lang="fr-FR">Nom</target>
+      </trans-unit>
+      <trans-unit id="fldNewRegReplacePreReg.label">
+        <source xml:lang="en">The new registration will replace your previous registration.</source>
+        <target xml:lang="fr-FR">Cette nouvelle inscription remplacera votre précédente inscription.</target>
+      </trans-unit>
+      <trans-unit id="fldNewRegReplacePreReg.title">
+        <source xml:lang="en">The new registration will replace your previous registration.</source>
+        <target xml:lang="fr-FR">Cette nouvelle inscription remplacera votre précédente inscription.</target>
+      </trans-unit>
+      <trans-unit id="fldNrRegistered.label">
+        <source xml:lang="en">Number of guests (<x id="INTERPOLATION" equiv-text="{{calendarEvent?.maxNrPerRegistration}}"/> allowed)</source>
+        <target xml:lang="fr-FR">Nombre de participants (maximum : <x id="INTERPOLATION" equiv-text="{{calendarEvent?.maxNrPerRegistration}}"/>)</target>
+      </trans-unit>
+      <trans-unit id="fldNrRegistered.title">
+        <source xml:lang="en">Number of guests</source>
+        <target xml:lang="fr-FR">Nombre de participants</target>
+      </trans-unit>
+      <trans-unit id="fldPreRegSameEmailWillBeRemoved.label">
+        <source xml:lang="en">If you have a previous registration for the same e-mail address that will be removed.</source>
+        <target xml:lang="fr-FR">Si vous avez procédé à une précédente inscription avec cette même adresse email, celle-ci sera supprimée.</target>
+      </trans-unit>
+      <trans-unit id="fldPreRegSameEmailWillBeRemoved.title">
+        <source xml:lang="en">If you have a previous registration for the same e-mail address that will be removed.</source>
+        <target xml:lang="fr-FR">Si vous avez procédé à une précédente inscription avec cette même adresse email, celle-ci sera supprimée.</target>
+      </trans-unit>
+      <trans-unit id="fldPrivacyPolicy.label">
+        <source xml:lang="en">Privacy policy</source>
+        <target xml:lang="fr-FR">Politique de confidentialité</target>
+      </trans-unit>
+      <trans-unit id="fldPrivacyPolicy.title">
+        <source xml:lang="en">Privacy policy</source>
+        <target xml:lang="fr-FR">Politique de confidentialité</target>
+      </trans-unit>
+      <trans-unit id="fldRegMessageSameEmail.label">
+        <source xml:lang="en">You have previously registered to this event</source>
+        <target xml:lang="fr-FR">Vous vous êtes déjà inscrit à cet événement</target>
+      </trans-unit>
+      <trans-unit id="fldRegMessageSameEmail.title">
+        <source xml:lang="en">You have previously registered to this event</source>
+        <target xml:lang="fr-FR">Vous vous êtes déjà inscrit à cet événement</target>
+      </trans-unit>
+      <trans-unit id="lblAttachments">
+        <source xml:lang="en">Attachments</source>
+        <target xml:lang="fr-FR">Les pièces jointes</target>
+      </trans-unit>
+      <trans-unit id="lblEventDateTime">
+        <source xml:lang="en">Date and time</source>
+        <target xml:lang="fr-FR">Date et heure</target>
+      </trans-unit>
+      <trans-unit id="lblEventDescription">
+        <source xml:lang="en">Description</source>
+        <target xml:lang="fr-FR">Description</target>
+      </trans-unit>
+      <trans-unit id="lblEventLocation">
+        <source xml:lang="en">Location</source>
+        <target xml:lang="fr-FR">Lieu</target>
+      </trans-unit>
+      <trans-unit id="lblRegisterToEvent">
+        <source xml:lang="en">Register to event: <x id="INTERPOLATION" equiv-text="{{calendarEvent?.title}}"/></source>
+        <target xml:lang="fr-FR">S’inscrire à un événement : <x id="INTERPOLATION" equiv-text="{{calendarEvent?.title}}"/></target>
+      </trans-unit>
+      <trans-unit id="lblSearchEvents">
+        <source xml:lang="en">Search events:</source>
+        <target xml:lang="fr-FR">Recherche d’événements :</target>
+      </trans-unit>
+      <trans-unit id="lblSocialShare">
+        <source xml:lang="en">Share with your friends</source>
+        <target xml:lang="fr-FR">Partager avec vos amis</target>
+      </trans-unit>
+      <trans-unit id="lblTags">
+        <source xml:lang="en">Tags</source>
+        <target xml:lang="fr-FR">Tags</target>
+      </trans-unit>
+      <trans-unit id="lblTargetAudiences">
+        <source xml:lang="en">Target Audiences</source>
+        <target xml:lang="fr-FR">Publics cibles</target>
+      </trans-unit>
+      <trans-unit id="lgdLocationSelector">
+        <source xml:lang="en">Locations</source>
+        <target xml:lang="fr-FR">Lieu</target>
+      </trans-unit>
+      <trans-unit id="lgdTagSelector">
+        <source xml:lang="en">Tags</source>
+        <target xml:lang="fr-FR">Tags</target>
+      </trans-unit>
+      <trans-unit id="lgdTargetAudienceSelector">
+        <source xml:lang="en">Target audiences</source>
+        <target xml:lang="fr-FR">Public cible</target>
+      </trans-unit>
+      <trans-unit id="lgdTimeIntervalSelector">
+        <source xml:lang="en">Time interval</source>
+        <target xml:lang="fr-FR">Intervalle de temps</target>
+      </trans-unit>
+      <trans-unit id="lnkAllEvents.label">
+        <source xml:lang="en">Show all events</source>
+        <target xml:lang="fr-FR">Afficher tous les événements</target>
+      </trans-unit>
+      <trans-unit id="lnkAllEvents.title">
+        <source xml:lang="en">Go to the page for all events</source>
+        <target xml:lang="fr-FR">Aller à la page de tous les événements</target>
+      </trans-unit>
+      <trans-unit id="lnkAllLocation.label">
+        <source xml:lang="en">All locations</source>
+        <target xml:lang="fr-FR">Tous les lieux</target>
+      </trans-unit>
+      <trans-unit id="lnkAllLocation.title">
+        <source xml:lang="en">All locations</source>
+        <target xml:lang="fr-FR">Tous les lieux</target>
+      </trans-unit>
+      <trans-unit id="lnkBack.label">
+        <source xml:lang="en">Back</source>
+        <target xml:lang="fr-FR">Retour</target>
+      </trans-unit>
+      <trans-unit id="lnkBack.title">
+        <source xml:lang="en">Back</source>
+        <target xml:lang="fr-FR">Retour</target>
+      </trans-unit>
+      <trans-unit id="lnkDownloadICalendar.label">
+        <source xml:lang="en">Add to your
+                                calendar</source>
+        <target xml:lang="fr-FR">Ajouter à votre calendrier</target>
+      </trans-unit>
+      <trans-unit id="lnkDownloadICalendar.title">
+        <source xml:lang="en">Add to your calendar</source>
+        <target xml:lang="fr-FR">Ajouter à votre calendrier</target>
+      </trans-unit>
+      <trans-unit id="lnkSearchLocation.title">
+        <source xml:lang="en">Click to see all events in this location</source>
+        <target xml:lang="fr-FR">Cliquez pour voir tous les événements dans ce lieu</target>
+      </trans-unit>
+      <trans-unit id="lnkSearchTag.title">
+        <source xml:lang="en">Click to see all events in this tag</source>
+        <target xml:lang="fr-FR">Cliquez pour voir tous les événements avec ce tag</target>
+      </trans-unit>
+      <trans-unit id="lnkSearchTargetAudience.title">
+        <source xml:lang="en">Click to see all events for this target audience</source>
+        <target xml:lang="fr-FR">Cliquez pour voir tous les événements pour ce public cible</target>
+      </trans-unit>
+      <trans-unit id="lnkShare.title">
+        <source xml:lang="en">Share <x id="ICU" equiv-text="{platform.name, select, email {...} facebook {...} twitter {...}}"/></source>
+        <target xml:lang="fr-FR">Partager <x id="ICU" equiv-text="{platform.name, select, email {...} facebook {...} twitter {...}}"/></target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllLocations.label">
+        <source xml:lang="en">
+              Show all
+            </source>
+        <target xml:lang="fr-FR">Afficher tout</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllLocations.title">
+        <source xml:lang="en">Show all</source>
+        <target xml:lang="fr-FR">Afficher tout</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTags.label">
+        <source xml:lang="en">
+              Show all
+            </source>
+        <target xml:lang="fr-FR">Afficher tout</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTags.title">
+        <source xml:lang="en">Show all</source>
+        <target xml:lang="fr-FR">Afficher tout</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTargetAudiences.label">
+        <source xml:lang="en">
+              Show all
+            </source>
+        <target xml:lang="fr-FR">Afficher tout</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTargetAudiences.title">
+        <source xml:lang="en">Show all</source>
+        <target xml:lang="fr-FR">Afficher tout</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTimeIntervals.label">
+        <source xml:lang="en">
+              Show all
+            </source>
+        <target xml:lang="fr-FR">Afficher tout</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTimeIntervals.title">
+        <source xml:lang="en">Show all</source>
+        <target xml:lang="fr-FR">Afficher tout</target>
+      </trans-unit>
+      <trans-unit id="lnkShowEventsFor.label">
+        <source xml:lang="en">Show events for:</source>
+        <target xml:lang="fr-FR">Afficher les événements pour :</target>
+      </trans-unit>
+      <trans-unit id="lnkShowEventsFor.title">
+        <source xml:lang="en">Show events for:</source>
+        <target xml:lang="fr-FR">Afficher les événements pour :</target>
+      </trans-unit>
+      <trans-unit id="msgRegisterSuccess">
+        <source xml:lang="en">Successfully
+                    registered to the event
+                </source>
+        <target xml:lang="fr-FR">Inscription à l’événement réussie</target>
+      </trans-unit>
+      <trans-unit id="plhSearchEvents">
+        <source xml:lang="en">Search for events</source>
+        <target xml:lang="fr-FR">Recherche d’événements</target>
+      </trans-unit>
+      <trans-unit id="privacy-policy.href">
+        <source xml:lang="en">privacy-policy</source>
+        <target xml:lang="fr-FR">privacy-policy</target>
+      </trans-unit>
+      <trans-unit id="txtEventAlmostFullyBooked">
+        <source xml:lang="en">Few seats left - you better hurry!</source>
+        <target xml:lang="fr-FR">Seules quelques places sont encore disponibles</target>
+      </trans-unit>
+      <trans-unit id="txtEventCancelled">
+        <source xml:lang="en">Cancelled</source>
+        <target xml:lang="fr-FR">Annulé</target>
+      </trans-unit>
+      <trans-unit id="txtEventFullyBooked">
+        <source xml:lang="en">Fully
+                Booked
+            </source>
+        <target xml:lang="fr-FR">Complet</target>
+      </trans-unit>
+      <trans-unit id="txtNoSearchResult">
+        <source xml:lang="en">Sorry, there are no events matching the current filter</source>
+        <target xml:lang="fr-FR">Désolé, aucun événement ne correspond au filtre actuel</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

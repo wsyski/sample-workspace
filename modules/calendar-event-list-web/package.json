@@ -1,0 +1,78 @@
+{
+  "name": "calendar-event-list",
+  "version": "5.4.0",
+  "license": "UNLICENSED",
+  "main": "lib/index.js",
+  "private": true,
+  "description": "Calendar event list portlet",
+  "dependencies": {
+    "@angular/animations": "~7.2.16",
+    "@angular/common": "~7.2.16",
+    "@angular/compiler": "~7.2.16",
+    "@angular/core": "~7.2.16",
+    "@angular/forms": "~7.2.16",
+    "@angular/http": "~7.2.16",
+    "@angular/platform-browser": "~7.2.16",
+    "@angular/platform-browser-dynamic": "~7.2.16",
+    "@angular/router": "~7.2.16",
+    "@ngrx/effects": "~7.2.0",
+    "@ngrx/router-store": "~7.2.0",
+    "@ngrx/store": "~7.2.0",
+    "angular2-cookies": "^0.1.0",
+    "core-js": "2.6.12",
+    "file-saver": "~2.0.5",
+    "immutable-ics": "~0.4.0",
+    "ngx-bootstrap": "3.3.0",
+    "rxjs": "^6.6.7",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular/cli": "~7.2.4",
+    "@angular/compiler-cli": "~7.2.16",
+    "@angular/language-service": "~7.2.16",
+    "@types/bootstrap": "~3.3.42",
+    "@types/file-saver": "~2.0.5",
+    "@types/jasmine": "2.8.3",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~6.0.60",
+    "bootstrap": "~3.3.7",
+    "codelyzer": "~4.5.0",
+    "cpr": "^3.0.1",
+    "jasmine-core": "^4.0.0",
+    "jasmine-marbles": "~0.3.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "jquery": "~3.3.1",
+    "karma": "~6.0.0",
+    "karma-chrome-launcher": "~3.1.1",
+    "karma-coverage-istanbul-reporter": "~3.0.3",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "liferay-npm-bundler": "~2.31.2",
+    "protractor": "~5.4.0",
+    "rimraf": "~4.4.1",
+    "sass":"~1.60.0",
+    "sass-loader":"~7.1.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.20.1",
+    "typescript": "~3.2.4",
+    "webpack": "~4.44.2"
+  },
+  "workspaces": {
+    "packages": [
+    ],
+    "nohoist": [
+      "**"
+    ]
+  },
+  "scripts": {
+    "workspace-install": "yarn install",
+    "clean": "rimraf build",
+    "build": "tsc && liferay-npm-bundler",
+    "css": "sass --load-path=dev/lexicon/fonts/alloy-font-awesome/sccs src/main/resources/META-INF/resources/scss/main.scss build/resources/main/META-INF/resources/css/main.css",
+    "xi18n": "ng xi18n --output-path src/main/resources/META-INF/resources/i18n --verbose --i18nFormat=xlf --app",
+    "test": "ng test --watch=false --browsers ChromeHeadless",
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "deploy": "true"
+  }
+}

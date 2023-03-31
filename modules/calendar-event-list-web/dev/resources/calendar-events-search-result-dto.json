@@ -1,0 +1,561 @@
+{
+  "name": "full_text_search",
+  "from": 0,
+  "size": 9,
+  "totalHits": 21,
+  "hits": [
+    {
+      "id": "d84e5468-9fa5-4e48-aa2e-bbf345f7c8c4",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-28T11:28:39.133Z",
+      "eventType": "EVENT_UPDATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "d84e5468-9fa5-4e48-aa2e-bbf345f7c8c4",
+        "createdBy": "Arena Library",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Arena Event-Cancelled",
+        "description": "Sorry we have to cancel this cool event!",
+        "startDate": "2018-12-05T10:35:53.000Z",
+        "endDate": "2018-12-15T09:35:53.000Z",
+        "publicationDate": "2018-11-13T15:54:53.816Z",
+        "status": "CANCELLED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 5,
+        "location": {
+          "id": "id-lund",
+          "value": "lund"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "arena",
+          "events",
+          "library",
+          "winter"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    },
+    {
+      "id": "4544fe95-1c92-41bf-9717-b541e503e89f",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-27T12:49:44.916Z",
+      "eventType": "EVENT_CREATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "4544fe95-1c92-41bf-9717-b541e503e89f",
+        "createdBy": "Drammen Bibliotek",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Swedish Book Fika",
+        "description": "Book reading marathon, Get rewarded for reading as many books as possible. You can choose a book of your own choice and continue reading.",
+        "startDate": "2018-12-24T18:15:24.000Z",
+        "endDate": "2018-12-24T20:29:24.000Z",
+        "publicationDate": "2018-11-16T13:50:24.520Z",
+        "status": "PUBLISHED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 50,
+        "location": {
+          "id": "drammen-location",
+          "value": "Drammen"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "summer books"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    },
+    {
+      "id": "541d4558-329c-443d-b542-6ccd875dbcb3",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-27T12:48:56.109Z",
+      "eventType": "EVENT_CREATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "541d4558-329c-443d-b542-6ccd875dbcb3",
+        "createdBy": "Drammen Bibliotek",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Swedish Book Fika",
+        "description": "Book reading marathon, Get rewarded for reading as many books as possible. You can choose a book of your own choice and continue reading.",
+        "startDate": "2018-12-24T18:15:24.000Z",
+        "endDate": "2018-12-24T20:29:24.000Z",
+        "publicationDate": "2018-11-16T13:50:24.520Z",
+        "status": "PUBLISHED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 50,
+        "location": {
+          "id": "drammen-location",
+          "value": "Drammen"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "summer books"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    },
+    {
+      "id": "d2aa734d-5d75-42e7-a3bb-eaada2c5e88e",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-27T12:49:04.570Z",
+      "eventType": "EVENT_CREATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "d2aa734d-5d75-42e7-a3bb-eaada2c5e88e",
+        "createdBy": "Drammen Bibliotek",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Swedish Book Fika",
+        "description": "Book reading marathon, Get rewarded for reading as many books as possible. You can choose a book of your own choice and continue reading.",
+        "startDate": "2018-12-24T18:15:24.000Z",
+        "endDate": "2018-12-24T20:29:24.000Z",
+        "publicationDate": "2018-11-16T13:50:24.520Z",
+        "status": "PUBLISHED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 50,
+        "location": {
+          "id": "drammen-location",
+          "value": "Drammen"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "summer books"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    },
+    {
+      "id": "b5241fae-d942-49a6-a2ec-26cc84d40b11",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-27T12:59:17.651Z",
+      "eventType": "EVENT_CREATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "b5241fae-d942-49a6-a2ec-26cc84d40b11",
+        "createdBy": "Drammen Bibliotek",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Swedish Book Fika",
+        "description": "Book reading marathon, Get rewarded for reading as many books as possible. You can choose a book of your own choice and continue reading.",
+        "startDate": "2018-12-24T18:15:24.000Z",
+        "endDate": "2018-12-24T20:29:24.000Z",
+        "publicationDate": "2018-11-16T13:50:24.520Z",
+        "status": "PUBLISHED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 10,
+        "location": {
+          "id": "drammen-location",
+          "value": "Drammen"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "summer books",
+          "Fun Books",
+          "General Books"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    },
+    {
+      "id": "d4a164f2-4c35-49a5-964f-86ab75de0af1",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-27T13:00:14.572Z",
+      "eventType": "EVENT_CREATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "d4a164f2-4c35-49a5-964f-86ab75de0af1",
+        "createdBy": "Drammen Bibliotek",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Swedish Book Fika",
+        "description": "Book reading marathon, Get rewarded for reading as many books as possible. You can choose a book of your own choice and continue reading.",
+        "startDate": "2018-12-24T18:15:24.000Z",
+        "endDate": "2018-12-24T20:29:24.000Z",
+        "publicationDate": "2018-11-16T13:50:24.520Z",
+        "status": "PUBLISHED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 10,
+        "location": {
+          "id": "drammen-location",
+          "value": "Drammen"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "summer books",
+          "Fun Books",
+          "General Books"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    },
+    {
+      "id": "d0a557d5-27d5-4045-9752-9a13d1a60c11",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-27T13:00:15.627Z",
+      "eventType": "EVENT_CREATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "d0a557d5-27d5-4045-9752-9a13d1a60c11",
+        "createdBy": "Drammen Bibliotek",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Swedish Book Fika",
+        "description": "Book reading marathon, Get rewarded for reading as many books as possible. You can choose a book of your own choice and continue reading.",
+        "startDate": "2018-12-24T18:15:24.000Z",
+        "endDate": "2018-12-24T20:29:24.000Z",
+        "publicationDate": "2018-11-16T13:50:24.520Z",
+        "status": "PUBLISHED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 10,
+        "location": {
+          "id": "drammen-location",
+          "value": "Drammen"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "summer books",
+          "Fun Books",
+          "General Books"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    },
+    {
+      "id": "9485abe8-84a4-4cad-82e9-3a6eaf96ed7d",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-27T12:59:19.351Z",
+      "eventType": "EVENT_CREATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "9485abe8-84a4-4cad-82e9-3a6eaf96ed7d",
+        "createdBy": "Drammen Bibliotek",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Swedish Book Fika",
+        "description": "Book reading marathon, Get rewarded for reading as many books as possible. You can choose a book of your own choice and continue reading.",
+        "startDate": "2018-12-24T18:15:24.000Z",
+        "endDate": "2018-12-24T20:29:24.000Z",
+        "publicationDate": "2018-11-16T13:50:24.520Z",
+        "status": "PUBLISHED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 10,
+        "location": {
+          "id": "drammen-location",
+          "value": "Drammen"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "summer books",
+          "Fun Books",
+          "General Books"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    },
+    {
+      "id": "bb2e6ceb-7d60-47db-8a95-b78e628cf34d",
+      "tenantId": "5be4048dbe5802159d7753e0",
+      "timestamp": "2018-11-27T13:00:12.209Z",
+      "eventType": "EVENT_CREATED",
+      "eventSource": "arena",
+      "deviceType": null,
+      "geoLocation": null,
+      "orgLevel": null,
+      "event": {
+        "id": "bb2e6ceb-7d60-47db-8a95-b78e628cf34d",
+        "createdBy": "Drammen Bibliotek",
+        "customerId": "5be4048dbe5802159d7753e0",
+        "deleted": false,
+        "registerable": true,
+        "title": "Swedish Book Fika",
+        "description": "Book reading marathon, Get rewarded for reading as many books as possible. You can choose a book of your own choice and continue reading.",
+        "startDate": "2018-12-24T18:15:24.000Z",
+        "endDate": "2018-12-24T20:29:24.000Z",
+        "publicationDate": "2018-11-16T13:50:24.520Z",
+        "status": "PUBLISHED",
+        "nrOfAttendees": 0,
+        "maxAttendees": 10,
+        "location": {
+          "id": "drammen-location",
+          "value": "Drammen"
+        },
+        "room": {
+          "id": null,
+          "value": null
+        },
+        "images": [
+          {
+            "imageId": "header-1",
+            "imageUrl": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg",
+            "imageCaption": "",
+            "mimeType": "jpg",
+            "primaryImage": true
+          }
+        ],
+        "types": [],
+        "subjects": [],
+        "tags": [
+          "summer books",
+          "Fun Books",
+          "General Books"
+        ],
+        "targetAudiences": [],
+        "linkedCatalogueRecordIds": []
+      },
+      "patron": {
+        "id": null,
+        "gender": null,
+        "age": 0,
+        "ageGroup": null,
+        "category": null,
+        "postalCode": null,
+        "postalCodeGroup": null,
+        "hasOpenLibrary": false,
+        "roles": null
+      }
+    }
+  ]
+}

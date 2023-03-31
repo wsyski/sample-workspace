@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<portlet-preferences>
+	<preference>
+		<name>pageSize</name>
+		<value>8</value>
+	</preference>
+	<preference>
+		<name>isFullWidthMode</name>
+		<value>false</value>
+	</preference>
+</portlet-preferences>

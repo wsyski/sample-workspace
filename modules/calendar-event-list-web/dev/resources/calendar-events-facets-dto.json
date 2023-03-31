@@ -1,0 +1,60 @@
+{
+  "name": "terms_aggregation",
+  "aggregations": [
+    {
+      "name": "event.tags",
+      "buckets": [
+        {
+          "key": "summer books",
+          "count": 20
+        },
+        {
+          "key": "Fun Books",
+          "count": 16
+        },
+        {
+          "key": "General Books",
+          "count": 16
+        },
+        {
+          "key": "arena",
+          "count": 1
+        },
+        {
+          "key": "events",
+          "count": 1
+        },
+        {
+          "key": "library",
+          "count": 1
+        },
+        {
+          "key": "winter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "event.location.value",
+      "buckets": [
+        {
+          "key": "Drammen",
+          "count": 20
+        },
+        {
+          "key": "lund",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "event.targetAudiences.value",
+      "buckets": [
+        {
+          "key": "Adults",
+          "count": 20
+        }
+      ]
+    }
+  ]
+}

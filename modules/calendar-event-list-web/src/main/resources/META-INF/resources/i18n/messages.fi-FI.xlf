@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="ng2.template" datatype="plaintext" source-language="en" target-language="fi-FI">
+    <body>
+      <trans-unit id="79e2aa6d049bbd3ea59918c49c89ed257e918fdf">
+        <source xml:lang="en">{VAR_SELECT, select, email {via email} facebook {on Facebook} twitter {on Twitter} }</source>
+        <target xml:lang="fi-FI">{VAR_SELECT, select, email {sähköpostiin} facebook {Facebookiin} twitter {Twitteriin} }</target>
+      </trans-unit>
+      <trans-unit id="86688203dfe227a2dc7f9f161f1126a62d45b2f2">
+        <source xml:lang="en">{VAR_SELECT, select, MANDATORY_FIELD_MISSING {Mandatory fields are missing} INVALID_EMAIL {Email is invalid} EVENT_FULLY_BOOKED {Event is fully booked} ALREADY_REGISTERED {This email is already registered} MIN_NR_OF_ATTENDEES {You can not register less than one person} MAX_NR_OF_ATTENDEES {You are trying to register too many attendees} other {Failed to register to the event} }</source>
+        <target xml:lang="fi-FI">{VAR_SELECT, select, MANDATORY_FIELD_MISSING {Täytä kaikki kentät} INVALID_EMAIL {Sähköpostiosoite ei kelpaa} EVENT_FULLY_BOOKED {Tapahtuma on täynnä} ALREADY_REGISTERED {Sähköpostiosoite on jo rekisteröity} MIN_NR_OF_ATTENDEES {Sinun on ilmoitettava vähintään yksi osallistuja} MAX_NR_OF_ATTENDEES {Yrität ilmoittaa liian monta osallistujaa} other {Tapahtumaan ilmoittautuminen epäonnistui} }</target>
+      </trans-unit>
+      <trans-unit id="bca14a6cfe50178ad57b2fd21d393f8736131231">
+        <source xml:lang="en">{VAR_SELECT, select, ALL {All events} TODAY {Today} ONE_WEEK {One week ahead} ONE_MONTH {One month ahead} ONE_YEAR {One year ahead} }</source>
+        <target xml:lang="fi-FI">{VAR_SELECT, select, ALL {Kaikki tapahtumat} TODAY {Tänään} ONE_WEEK {Seuraava viikko} ONE_MONTH {Seuraava kuukausi} ONE_YEAR {Seuraava vuosi} }</target>
+      </trans-unit>
+      <trans-unit id="btnCancel.label">
+        <source xml:lang="en">Cancel
+                        </source>
+        <target xml:lang="fi-FI">Peruuta</target>
+      </trans-unit>
+      <trans-unit id="btnRegister.label">
+        <source xml:lang="en">Register
+                        </source>
+        <target xml:lang="fi-FI">Ilmoittaudu</target>
+      </trans-unit>
+      <trans-unit id="btnRegister.title">
+        <source xml:lang="en">Register</source>
+        <target xml:lang="fi-FI">Ilmoittaudu</target>
+      </trans-unit>
+      <trans-unit id="btnSearch.title">
+        <source xml:lang="en">Search</source>
+        <target xml:lang="fi-FI">Hae</target>
+      </trans-unit>
+      <trans-unit id="btnShowMoreEvents.label">
+        <source xml:lang="en">Load more events</source>
+        <target xml:lang="fi-FI">Näytä lisää tapahtumia</target>
+      </trans-unit>
+      <trans-unit id="btnShowMoreEvents.title">
+        <source xml:lang="en">Load more events</source>
+        <target xml:lang="fi-FI">Näytä lisää tapahtumia</target>
+      </trans-unit>
+      <trans-unit id="clearSearch">
+        <source xml:lang="en">Clear</source>
+        <target xml:lang="fi-FI">Tyhjennä hakukysely</target>
+      </trans-unit>
+      <trans-unit id="fldAcceptTerms.label">
+        <source xml:lang="en"> I agree with the storage and handling of data by this website in accordance to this policy: </source>
+        <target xml:lang="fi-FI">Hyväksyn, että verkkosivu säilyttää ja käsittelee tietoja tämän käytännön mukaisesti: </target>
+      </trans-unit>
+      <trans-unit id="fldAcceptTerms.title">
+        <source xml:lang="en"> I agree with the storage and handling of data by this website in accordance to this policy: </source>
+        <target xml:lang="fi-FI">Hyväksyn, että verkkosivu säilyttää ja käsittelee tietoja tämän käytännön mukaisesti: </target>
+      </trans-unit>
+      <trans-unit id="fldEmail.label">
+        <source xml:lang="en">Email</source>
+        <target xml:lang="fi-FI">Sähköpostiosoite</target>
+      </trans-unit>
+      <trans-unit id="fldEmail.title">
+        <source xml:lang="en">Email</source>
+        <target xml:lang="fi-FI">Sähköpostiosoite</target>
+      </trans-unit>
+      <trans-unit id="fldFirstName.label">
+        <source xml:lang="en">First Name</source>
+        <target xml:lang="fi-FI">Etunimi</target>
+      </trans-unit>
+      <trans-unit id="fldFirstName.title">
+        <source xml:lang="en">First Name</source>
+        <target xml:lang="fi-FI">Etunimi</target>
+      </trans-unit>
+      <trans-unit id="fldLastName.label">
+        <source xml:lang="en">Last Name</source>
+        <target xml:lang="fi-FI">Sukunimi</target>
+      </trans-unit>
+      <trans-unit id="fldLastName.title">
+        <source xml:lang="en">Last Name</source>
+        <target xml:lang="fi-FI">Sukunimi</target>
+      </trans-unit>
+      <trans-unit id="fldNewRegReplacePreReg.label">
+        <source xml:lang="en">The new registration will replace your previous registration.</source>
+        <target xml:lang="fi-FI">Uusi ilmoittautuminen korvaa aiemman ilmoittautumisen.</target>
+      </trans-unit>
+      <trans-unit id="fldNewRegReplacePreReg.title">
+        <source xml:lang="en">The new registration will replace your previous registration.</source>
+        <target xml:lang="fi-FI">Uusi ilmoittautuminen korvaa aiemman ilmoittautumisen.</target>
+      </trans-unit>
+      <trans-unit id="fldNrRegistered.label">
+        <source xml:lang="en">Number of guests (<x id="INTERPOLATION" equiv-text="{{calendarEvent?.maxNrPerRegistration}}"/> allowed)</source>
+        <target xml:lang="fi-FI">Osallistujien lukumäärä (enimmäismäärä: <x id="INTERPOLATION" equiv-text="{{calendarEvent?.maxNrPerRegistration}}"/>)</target>
+      </trans-unit>
+      <trans-unit id="fldNrRegistered.title">
+        <source xml:lang="en">Number of guests</source>
+        <target xml:lang="fi-FI">Osallistujien lukumäärä</target>
+      </trans-unit>
+      <trans-unit id="fldPreRegSameEmailWillBeRemoved.label">
+        <source xml:lang="en">If you have a previous registration for the same e-mail address that will be removed.</source>
+        <target xml:lang="fi-FI">Jos olet ilmoittautunut aiemmin samalla sähköpostiosoitteella, kyseinen ilmoittautuminen poistetaan.</target>
+      </trans-unit>
+      <trans-unit id="fldPreRegSameEmailWillBeRemoved.title">
+        <source xml:lang="en">If you have a previous registration for the same e-mail address that will be removed.</source>
+        <target xml:lang="fi-FI">Jos olet ilmoittautunut aiemmin samalla sähköpostiosoitteella, kyseinen ilmoittautuminen poistetaan.</target>
+      </trans-unit>
+      <trans-unit id="fldPrivacyPolicy.label">
+        <source xml:lang="en">Privacy policy</source>
+        <target xml:lang="fi-FI">Tietosuojaperiaatteet</target>
+      </trans-unit>
+      <trans-unit id="fldPrivacyPolicy.title">
+        <source xml:lang="en">Privacy policy</source>
+        <target xml:lang="fi-FI">Tietosuojaperiaatteet</target>
+      </trans-unit>
+      <trans-unit id="fldRegMessageSameEmail.label">
+        <source xml:lang="en">You have previously registered to this event</source>
+        <target xml:lang="fi-FI">Olet jo ilmoittautunut tähän tapahtumaan</target>
+      </trans-unit>
+      <trans-unit id="fldRegMessageSameEmail.title">
+        <source xml:lang="en">You have previously registered to this event</source>
+        <target xml:lang="fi-FI">Olet jo ilmoittautunut tähän tapahtumaan</target>
+      </trans-unit>
+      <trans-unit id="lblAttachments">
+        <source xml:lang="en">Attachments</source>
+        <target xml:lang="fi-FI">Liitteet</target>
+      </trans-unit>
+      <trans-unit id="lblEventDateTime">
+        <source xml:lang="en">Date and time</source>
+        <target xml:lang="fi-FI">Päivämäärä ja aika</target>
+      </trans-unit>
+      <trans-unit id="lblEventDescription">
+        <source xml:lang="en">Description</source>
+        <target xml:lang="fi-FI">Kuvaus</target>
+      </trans-unit>
+      <trans-unit id="lblEventLocation">
+        <source xml:lang="en">Location</source>
+        <target xml:lang="fi-FI">Paikka</target>
+      </trans-unit>
+      <trans-unit id="lblRegisterToEvent">
+        <source xml:lang="en">Register to event: <x id="INTERPOLATION" equiv-text="{{calendarEvent?.title}}"/></source>
+        <target xml:lang="fi-FI">Ilmoittaudu tapahtumaan: <x id="INTERPOLATION" equiv-text="{{calendarEvent?.title}}"/></target>
+      </trans-unit>
+      <trans-unit id="lblSearchEvents">
+        <source xml:lang="en">Search events:</source>
+        <target xml:lang="fi-FI">Hae tapahtumia:</target>
+      </trans-unit>
+      <trans-unit id="lblSocialShare">
+        <source xml:lang="en">Share with your friends</source>
+        <target xml:lang="fi-FI">Jaa kavereille</target>
+      </trans-unit>
+      <trans-unit id="lblTags">
+        <source xml:lang="en">Tags</source>
+        <target xml:lang="fi-FI">Tagit</target>
+      </trans-unit>
+      <trans-unit id="lblTargetAudiences">
+        <source xml:lang="en">Target Audiences</source>
+        <target xml:lang="fi-FI">Kohde</target>
+      </trans-unit>
+      <trans-unit id="lgdLocationSelector">
+        <source xml:lang="en">Locations</source>
+        <target xml:lang="fi-FI">Paikka</target>
+      </trans-unit>
+      <trans-unit id="lgdTagSelector">
+        <source xml:lang="en">Tags</source>
+        <target xml:lang="fi-FI">Tagit</target>
+      </trans-unit>
+      <trans-unit id="lgdTargetAudienceSelector">
+        <source xml:lang="en">Target audiences</source>
+        <target xml:lang="fi-FI">Kohde</target>
+      </trans-unit>
+      <trans-unit id="lgdTimeIntervalSelector">
+        <source xml:lang="en">Time interval</source>
+        <target xml:lang="fi-FI">Aikaväli</target>
+      </trans-unit>
+      <trans-unit id="lnkAllEvents.label">
+        <source xml:lang="en">Show all events</source>
+        <target xml:lang="fi-FI">Näytä kaikki tapahtumat</target>
+      </trans-unit>
+      <trans-unit id="lnkAllEvents.title">
+        <source xml:lang="en">Go to the page for all events</source>
+        <target xml:lang="fi-FI">Siirry sivulle, jolla on kaikki tapahtumat</target>
+      </trans-unit>
+      <trans-unit id="lnkAllLocation.label">
+        <source xml:lang="en">All locations</source>
+        <target xml:lang="fi-FI">Kaikki paikat</target>
+      </trans-unit>
+      <trans-unit id="lnkAllLocation.title">
+        <source xml:lang="en">All locations</source>
+        <target xml:lang="fi-FI">Kaikki paikat</target>
+      </trans-unit>
+      <trans-unit id="lnkBack.label">
+        <source xml:lang="en">Back</source>
+        <target xml:lang="fi-FI">Takaisin</target>
+      </trans-unit>
+      <trans-unit id="lnkBack.title">
+        <source xml:lang="en">Back</source>
+        <target xml:lang="fi-FI">Takaisin</target>
+      </trans-unit>
+      <trans-unit id="lnkDownloadICalendar.label">
+        <source xml:lang="en">Add to your
+                                calendar</source>
+        <target xml:lang="fi-FI">Lisää kalenteriisi</target>
+      </trans-unit>
+      <trans-unit id="lnkDownloadICalendar.title">
+        <source xml:lang="en">Add to your calendar</source>
+        <target xml:lang="fi-FI">Lisää kalenteriisi</target>
+      </trans-unit>
+      <trans-unit id="lnkSearchLocation.title">
+        <source xml:lang="en">Click to see all events in this location</source>
+        <target xml:lang="fi-FI">Kaikki tämän paikan tapahtumat</target>
+      </trans-unit>
+      <trans-unit id="lnkSearchTag.title">
+        <source xml:lang="en">Click to see all events in this tag</source>
+        <target xml:lang="fi-FI">Kaikki tämän tagin tapahtumat</target>
+      </trans-unit>
+      <trans-unit id="lnkSearchTargetAudience.title">
+        <source xml:lang="en">Click to see all events for this target audience</source>
+        <target xml:lang="fi-FI">Kaikki tämän kohderyhmän tapahtumat</target>
+      </trans-unit>
+      <trans-unit id="lnkShare.title">
+        <source xml:lang="en">Share <x id="ICU" equiv-text="{platform.name, select, email {...} facebook {...} twitter {...}}"/></source>
+        <target xml:lang="fi-FI">Jaa <x id="ICU" equiv-text="{platform.name, select, email {...} facebook {...} twitter {...}}"/></target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllLocations.label">
+        <source xml:lang="en">
+              Show all
+            </source>
+        <target xml:lang="fi-FI">Näytä kaikki</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllLocations.title">
+        <source xml:lang="en">Show all</source>
+        <target xml:lang="fi-FI">Näytä kaikki</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTags.label">
+        <source xml:lang="en">
+              Show all
+            </source>
+        <target xml:lang="fi-FI">Näytä kaikki</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTags.title">
+        <source xml:lang="en">Show all</source>
+        <target xml:lang="fi-FI">Näytä kaikki</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTargetAudiences.label">
+        <source xml:lang="en">
+              Show all
+            </source>
+        <target xml:lang="fi-FI">Näytä kaikki</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTargetAudiences.title">
+        <source xml:lang="en">Show all</source>
+        <target xml:lang="fi-FI">Näytä kaikki</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTimeIntervals.label">
+        <source xml:lang="en">
+              Show all
+            </source>
+        <target xml:lang="fi-FI">Näytä kaikki</target>
+      </trans-unit>
+      <trans-unit id="lnkShowAllTimeIntervals.title">
+        <source xml:lang="en">Show all</source>
+        <target xml:lang="fi-FI">Näytä kaikki</target>
+      </trans-unit>
+      <trans-unit id="lnkShowEventsFor.label">
+        <source xml:lang="en">Show events for:</source>
+        <target xml:lang="fi-FI">Näytä tapahtumat:</target>
+      </trans-unit>
+      <trans-unit id="lnkShowEventsFor.title">
+        <source xml:lang="en">Show events for:</source>
+        <target xml:lang="fi-FI">Näytä tapahtumat:</target>
+      </trans-unit>
+      <trans-unit id="msgRegisterSuccess">
+        <source xml:lang="en">Successfully
+                    registered to the event
+                </source>
+        <target xml:lang="fi-FI">Ilmoittautuminen tapahtumaan onnistui</target>
+      </trans-unit>
+      <trans-unit id="plhSearchEvents">
+        <source xml:lang="en">Search for events</source>
+        <target xml:lang="fi-FI">Hae tapahtumia</target>
+      </trans-unit>
+      <trans-unit id="privacy-policy.href">
+        <source xml:lang="en">privacy-policy</source>
+        <target xml:lang="fi-FI">privacy-policy</target>
+      </trans-unit>
+      <trans-unit id="txtEventAlmostFullyBooked">
+        <source xml:lang="en">Few seats left - you better hurry!</source>
+        <target xml:lang="fi-FI">Vain muutamia paikkoja jäljellä - pidä kiirettä!</target>
+      </trans-unit>
+      <trans-unit id="txtEventCancelled">
+        <source xml:lang="en">Cancelled</source>
+        <target xml:lang="fi-FI">Peruttu</target>
+      </trans-unit>
+      <trans-unit id="txtEventFullyBooked">
+        <source xml:lang="en">Fully
+                Booked
+            </source>
+        <target xml:lang="fi-FI">Täynnä</target>
+      </trans-unit>
+      <trans-unit id="txtNoSearchResult">
+        <source xml:lang="en">Sorry, there are no events matching the current filter</source>
+        <target xml:lang="fi-FI">Ei nykyistä suodatinta vastaavia tapahtumia</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
