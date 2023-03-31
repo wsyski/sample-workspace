@@ -7,7 +7,6 @@ allprojects {
 }
 
 subprojects { subproject ->
-    if (!subproject.name.startsWith('angular') && !subproject.name.startsWith('npm')) {
         plugins.withId("java") {
             sourceCompatibility = "${javaSourceCompatibility}"
             dependencies {
@@ -36,6 +35,5 @@ subprojects { subproject ->
             }
         }
 
-    }
 }
 
