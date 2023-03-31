@@ -8,6 +8,7 @@
 		"node": "=16",
 		"yarn": "1.x"
 	},
+	"no-optional": true,
 	"dependencies": {
 		"@angular/animations": "~7.2.16",
 		"@angular/common": "~7.2.16",
