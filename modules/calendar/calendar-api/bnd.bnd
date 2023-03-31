@@ -1,0 +1,15 @@
+Bundle-Name: Arena Liferay Modules Calendar API
+Bundle-SymbolicName: com.axiell.arena.liferay.modules.calendar.api
+Bundle-Version: 5.4.0
+Export-Package: \
+    com.axiell.arena.liferay.modules.calendar.constants,\
+    com.axiell.arena.liferay.modules.calendar.exception,\
+    com.axiell.arena.liferay.modules.calendar.model.*,\
+    com.axiell.arena.liferay.modules.calendar.service,\
+    com.axiell.arena.liferay.modules.calendar.util
+
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../calendar-service/service.xml
+
+-include: ../../common.bnd
+

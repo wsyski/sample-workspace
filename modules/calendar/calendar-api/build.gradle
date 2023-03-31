@@ -1,0 +1,16 @@
+dependencies {
+    compileOnly project(":modules:arena:arena-api")
+    compileOnly project(":modules:common-services:common-services-api")
+    compileInclude group: "org.apache.commons", name: "commons-lang3", version: "${rootProject.getProperty('org.apache.commons.lang3.version')}"
+
+    testImplementation project(":modules:arena:arena-api")
+    testImplementation group: "org.mockito", name: "mockito-core", version: "${rootProject.getProperty('org.mockito.mockito-core.version')}"
+    testImplementation group: "org.springframework", name: "spring-test", version: "${rootProject.getProperty('org.springframework.spring-core.version')}"
+    testImplementation group: "org.apache.commons", name: "commons-lang3", version: "${rootProject.getProperty('org.apache.commons.lang3.version')}"
+}
+
+compileJava {
+    dependsOn(":modules:calendar:calendar-service:buildService")
+}
+
+

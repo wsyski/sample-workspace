@@ -1,0 +1,40 @@
+buildService {
+    apiDir = "../calendar-api/src/main/java"
+    osgiModule = true
+    propsUtil = "com.axiell.arena.liferay.modules.calendar.service.util.PropsUtil"
+    testDir = "src/java/test"
+}
+
+dependencies {
+    compileOnly project(":modules:arena:arena-api")
+    compileOnly project(":modules:common-services:common-services-api")
+    compileOnly project(":modules:calendar:calendar-api")
+    implementation group: 'commons-codec', name: 'commons-codec', version: "${rootProject.getProperty('commons-codec.commons-codec.version')}"
+    implementation group: "org.apache.cxf", name: "cxf-rt-transports-http", version: "${rootProject.getProperty('org.apache.cxf.cxf-core.version')}"
+    implementation group: "org.apache.cxf", name: "cxf-core", version: "${rootProject.getProperty('org.apache.cxf.cxf-core.version')}"
+    implementation group: "org.apache.cxf", name: "cxf-rt-frontend-jaxrs", version: "${rootProject.getProperty('org.apache.cxf.cxf-core.version')}"
+    implementation group: "org.apache.cxf", name: "cxf-rt-rs-client", version: "${rootProject.getProperty('org.apache.cxf.cxf-core.version')}"
+    implementation group: "org.apache.cxf", name: "cxf-rt-rs-extension-providers", version: "${rootProject.getProperty('org.apache.cxf.cxf-core.version')}"
+    compileInclude group: "com.fasterxml.jackson.jaxrs", name: "jackson-jaxrs-json-provider", version: "${rootProject.getProperty('com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider.version')}"
+    compileInclude group: "com.fasterxml.jackson.module", name: "jackson-module-parameter-names", version: "${rootProject.getProperty('com.fasterxml.jackson.module.jackson-module-parameter-names.version')}"
+    compileInclude group: "com.fasterxml.jackson.datatype", name: "jackson-datatype-jdk8", version: "${rootProject.getProperty('com.fasterxml.jackson.core.version')}"
+    compileInclude group: "com.fasterxml.jackson.datatype", name: "jackson-datatype-jsr310", version: "${rootProject.getProperty('com.fasterxml.jackson.core.version')}"
+    compileInclude group: "javax.activation", name: "javax.activation-api", version: "${rootProject.getProperty('javax.activation.javax.activation-api.version')}"
+    compileInclude group: "org.apache.commons", name: "commons-lang3", version: "${rootProject.getProperty('org.apache.commons.lang3.version')}"
+    compileInclude group: 'org.modelmapper', name: 'modelmapper', version: "${rootProject.getProperty('org.modelmapper.modelmapper.version')}"
+    compileInclude group: "com.google.guava", name: "guava", version: "${rootProject.getProperty('com.google.guava.guava.version')}"
+
+    testImplementation project(":modules:arena:arena-api")
+    testImplementation project(":modules:common-services:common-services-api")
+    testImplementation project(":modules:calendar:calendar-api")
+    testImplementation group: "com.fasterxml.jackson.jaxrs", name: "jackson-jaxrs-json-provider", version: "${rootProject.getProperty('com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider.version')}"
+    testImplementation group: "com.fasterxml.jackson.module", name: "jackson-module-parameter-names", version: "${rootProject.getProperty('com.fasterxml.jackson.module.jackson-module-parameter-names.version')}"
+    testImplementation group: "com.fasterxml.jackson.datatype", name: "jackson-datatype-jdk8", version: "${rootProject.getProperty('com.fasterxml.jackson.core.version')}"
+    testImplementation group: "com.fasterxml.jackson.datatype", name: "jackson-datatype-jsr310", version: "${rootProject.getProperty('com.fasterxml.jackson.core.version')}"
+    testImplementation group: "javax.activation", name: "javax.activation-api", version: "${rootProject.getProperty('javax.activation.javax.activation-api.version')}"
+    testImplementation group: "org.apache.commons", name: "commons-lang3", version: "${rootProject.getProperty('org.apache.commons.lang3.version')}"
+    testImplementation group: 'org.modelmapper', name: 'modelmapper', version: "${rootProject.getProperty('org.modelmapper.modelmapper.version')}"
+    testImplementation group: "com.google.guava", name: "guava", version: "${rootProject.getProperty('com.google.guava.guava.version')}"
+    testImplementation group: "org.mockito", name: "mockito-core", version: "${rootProject.getProperty('org.mockito.mockito-core.version')}"
+}
+

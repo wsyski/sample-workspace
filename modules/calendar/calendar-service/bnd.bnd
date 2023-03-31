@@ -1,0 +1,14 @@
+Bundle-Name: Arena Liferay Modules Calendar Service
+Bundle-SymbolicName: com.axiell.arena.liferay.modules.calendar.service
+Bundle-Version: 5.4.0
+Liferay-Require-SchemaVersion: 5.4.0
+Liferay-Service: true
+-dsannotations-options: inherit
+
+Import-Package: \
+    \
+    *
+
+-include: ../../common.bnd
+
+-fixupmessages "Classes found in the wrong directory"; restrict:=error; is:=warning

@@ -5,3 +5,37 @@ allprojects {
         node.useNpm = false
     }
 }
+
+subprojects { subproject ->
+    if (!subproject.name.startsWith('angular') && !subproject.name.startsWith('npm')) {
+        plugins.withId("java") {
+            sourceCompatibility = "${javaSourceCompatibility}"
+            dependencies {
+                compileOnly group: "org.projectlombok", name: "lombok", version: "${rootProject.getProperty('org.projectlombok.lombok.version')}"
+                annotationProcessor "org.projectlombok:lombok:${rootProject.getProperty('org.projectlombok.lombok.version')}"
+                compileOnly group: "com.liferay.portal", name: "release.portal.api"
+
+                testCompileOnly group: "org.projectlombok", name: "lombok", version: "${rootProject.getProperty('org.projectlombok.lombok.version')}"
+                testAnnotationProcessor "org.projectlombok:lombok:${rootProject.getProperty('org.projectlombok.lombok.version')}"
+                testImplementation group: "com.liferay.portal", name: "release.portal.api"
+                testImplementation group: "org.hamcrest", name: "hamcrest", version:  "${rootProject.getProperty('org.hamcrest.hamcrest.version')}"
+                testImplementation group: 'junit', name: 'junit'
+            }
+        }
+        repositories {
+            mavenLocal()
+            maven {
+                url "${gradleRepositoryUrl}"
+            }
+            maven {
+                url "${liferayRepositoryUrl}"
+            }
+            maven {
+                url "http://" + "${repositoryHost}" + "${repositoryPath}" + '/' + "${repositoryAllRepoId}"
+                allowInsecureProtocol = true
+            }
+        }
+
+    }
+}
+

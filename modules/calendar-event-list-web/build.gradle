@@ -25,17 +25,3 @@ classes {
     dependsOn([npmInstall, packageRunBuild, packageRunCss, packageRunLint, packageRunTest])
 }
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifactId 'com.axiell.arena.liferay.modules.calendar.calendar_event_list.web'
-            groupId "${mavenGroup}"
-            version "${mavenVersion}"
-            from components.java
-        }
-    }
-}
-
-packageRunBuild {
-    dependsOn([packageRunWorkspaceInstall])
-}

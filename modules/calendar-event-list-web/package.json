@@ -67,9 +67,11 @@
     "node-sass": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.0.2.tgz"
   },
   "scripts": {
+    "css": "sass --load-path=dev/lexicon/fonts/alloy-font-awesome/sccs src/main/resources/META-INF/resources/scss/main.scss build/resources/main/META-INF/resources/css/main.css",
     "test": "ng test --watch=false --browsers ChromeHeadless",
     "build": "tsc && liferay-npm-bundler",
     "clean": "rimraf build",
+    "lint": "tslint ./src/**/*.ts -t verbose",
     "deploy": "true"
   }
 }
