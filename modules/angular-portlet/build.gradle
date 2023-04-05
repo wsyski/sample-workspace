@@ -2,7 +2,10 @@ dependencies {
 	compileOnly group: "com.liferay.portal", name: "release.portal.api"
 }
 
-node {
-	nodeVersion = "10.15.1"
-	npmVersion = "6.4.1"
+classes {
+	dependsOn([packageRunScss])
+}
+
+test {
+	dependsOn([packageRunLint])
 }

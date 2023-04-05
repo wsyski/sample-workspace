@@ -48,6 +48,7 @@
     ],
     "no-arg": true,
     "no-bitwise": true,
+    "rxjs-no-compat": { "severity": "error" },
     "no-console": [
       true,
       "debug",

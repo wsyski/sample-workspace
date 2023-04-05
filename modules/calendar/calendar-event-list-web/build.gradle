@@ -22,6 +22,9 @@ dependencies {
 }
 
 classes {
-    dependsOn([packageRunBuild, packageRunCss, packageRunLint, packageRunTest])
+    dependsOn([packageRunScss])
 }
 
+test {
+    dependsOn([packageRunLint])
+}
