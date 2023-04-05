@@ -1,4 +1,14 @@
 {
+    "exclude": {
+        "tslib": true
+    },
+    "config": {
+        "imports": {
+            "@liferay/frontend-js-react-web": {
+                "tslib": "*"
+            }
+        }
+    },
     "dump-report": true,
     "max-parallel-files": 128,
     "verbose": true
