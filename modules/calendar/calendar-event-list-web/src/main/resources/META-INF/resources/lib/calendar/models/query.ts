@@ -57,8 +57,7 @@ function toArray(value: string | string[]): string[] {
         } else if (value instanceof Array) {
             return value.filter(v => v && v !== '');
         }
-    } else {
-        return [];
     }
+    return [];
 }
 

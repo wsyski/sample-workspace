@@ -1,18 +1,22 @@
 {
   "compilerOptions": {
+    "declaration": false,
+    "downlevelIteration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
     "lib": [
       "es2015",
       "dom"
     ],
     "module": "commonjs",
     "moduleResolution": "node",
-    "noImplicitAny": true,
-    "noStrictGenericChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "outDir":  "build/resources/main/META-INF/resources/lib",
     "sourceMap": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "skipLibCheck": true,
+    "strict": false,
     "target": "es5",
     "typeRoots": [
       "./node_modules/@types/",
@@ -32,6 +36,8 @@
     "src/main/resources/META-INF/resources/lib/**/*.spec*",
     "dev/**/*",
     "src/main/resources/META-INF/resources/lib/test.ts",
-    "src/main/resources/META-INF/resources/lib/main.ts"
+    "src/main/resources/META-INF/resources/lib/calendar/models/mock-calendar-events-search-result.ts",
+    "src/main/resources/META-INF/resources/lib/main.ts",
+    "src/test/**/*"
   ]
 }

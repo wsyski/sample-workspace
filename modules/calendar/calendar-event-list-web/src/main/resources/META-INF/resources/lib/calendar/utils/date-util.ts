@@ -35,6 +35,8 @@ export default class DateUtil {
     static object2Date(dateAsObject: any) {
         if (dateAsObject) {
             return dateAsObject.value ? new Date(dateAsObject.value) : new Date(dateAsObject);
+        } else {
+            return undefined;
         }
     }
 
